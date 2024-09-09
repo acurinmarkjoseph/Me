@@ -11,15 +11,15 @@
   left: 0;
   bottom: 0;
   right: 0;
-  z-index: -1;
+  z-index: -99;
   line-height: 1.2;
   animation: hidden 1000ms linear forwards;
 
   // If you want to set a background image on the hero section, uncomment these with yout custom image
 
-  /* background: url("/src/assets/[your-image].png");
-    background-position: center;
-    background-size: cover; */
+    // background: url("../../assets/profile.png");
+    // background-position: center;
+    // background-size: cover;
 
   @include respond(tab-port) {
     justify-content: center;
@@ -98,7 +98,7 @@
   }
   &::after {
     top: 30%;
-    animation-delay: 0.3s;
+    animation-delay: 0.1s;
   }
 }
 

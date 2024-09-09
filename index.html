@@ -66,8 +66,8 @@ Have fun creating your portfolio on this template!!! -->
     />
 
     <!-- link tags -->
-    <link rel="preload" as="style" href="./css/main.css" />
-    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="preload" as="style" href="./style/main.css" />
+    <link rel="stylesheet" href="./style/main.css" />
 
     <!-- FontAwesome Icons link -->
     <link
@@ -104,6 +104,7 @@ Have fun creating your portfolio on this template!!! -->
   <body>
     <!-- Hero Section -->
     <div id="hero">
+     <div id="particles-js"></div>
       <section class="container">
         <h1 class="hero-title">
           Hi, my name is 
@@ -139,7 +140,7 @@ Have fun creating your portfolio on this template!!! -->
             </p>
             <br />
             <span class="about-wrapper__cta">
-              <a href="./assets/Resume Profile/MarkJosephAcurinResumeUpdated_2.pdf" class="cta-btn cta-btn--resume">View Resume</a>
+              <a href="./assets/Resume Profile/MarkJosephAcurinResumeUpdated_2.pdf" download class="cta-btn cta-btn--resume">View Resume</a>
             </span>
           </div>
         </div>
@@ -327,8 +328,12 @@ Have fun creating your portfolio on this template!!! -->
     <script>
       document.getElementById("year").textContent = new Date().getFullYear()
     </script>
+    <script src="./javascript/jquery-3.4.1.min.js"></script>
+    <script src="./javascript/popper.min.js"></script>
     <script src="./javascript/vanilla-tilt.min.js"></script>
     <script type="text/javascript" src="./javascript/valtilt.js"></script>
+    <script src="./javascript/particles.js"></script> 
+    <script src="./javascript/app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
   </body>
 </html>
